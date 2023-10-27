@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Demonstration</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS for the body element */
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Internal CSS for the div with id="box" */
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline CSS -->
+    <div id="box" style="background-color: #e74c3c;">
+        <p>This is a div with inline CSS</p>
+    </div>
+
+    <!-- External CSS -->
+    <div id="box-external">
+        <p>This is a div with external CSS</p>
+    </div>
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</body>
+</html>
